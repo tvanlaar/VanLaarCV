@@ -70,6 +70,8 @@ professional %>%
                    where = where)
 ```
 
+<!-- # Publications Section -->
+
 # Peer-Reviewed Publications (Student Authors Underlined)
 
 \setlength{\leftskip}{0cm}
@@ -77,6 +79,8 @@ professional %>%
 
 \setlength{\leftskip}{1cm}
 Whittaker, D. J., Atyam, A., Burroughs, N. A., Greenberg, J. M., Hagey, T. J., Novotny, M. V., Soini, H. A., Theis, K. R., **Van Laar, T. A.**, & Slade, J. W. G. (2023). Effects of short-term experimental manipulation of captive social environment on uropygial gland microbiome and preen oil volatile composition. Frontiers in Ecology and Evolution, 10. https://www.frontiersin.org/articles/10.3389/fevo.2022.1027399
+
+\newpage 
 
 \setlength{\leftskip}{0cm}
 **2022**
@@ -178,7 +182,131 @@ Seshu, J., Smith, T. C. 2nd, Lin, Y.-H., Karna, S. L. R., Miller, C. L., & **Van
 ```{r seminars}
 tribble(
   ~ title, ~ organization, ~ location, ~ year,
-  "Math is for the Birds", "Seminar Series for the Quanititatively Curious", "California State University, Stanislaus", "2023",
+  "Math is for the Birds", "Seminar Series for the Quanititatively Curious", "Stanislaus State", "2023",
+  "Microbiology of Avian Systems", "Seminar Series", "University of the Pacific", "2023",
+   "Avian Microbial Genomics", "Seminar Series", "Stanislaus State", "2023",
+  "The Birds of Fresno State", "Fresno Audubon Society", "", "2020",
+  "We did something bad: Is this the end of the antibiotic era?", "Colloquium", "Fresno State", "2019",
+  "Good drugs gone bad: Antimicrobial resistance research at Fresno State", "Seminar Series", "UC Merced", "2018",
+  "GMOs and transgenic organisms – threat or opportunity?", "Central Valley Cafe Scientifique", "Fresno, CA", "2018",
+  "Good drugs gone bad: Antimicrobial Resistance", "Central Valley Cafe Scientifique", "Fresno, CA", "2017",
+  "Good drugs gone bad: An investigation of antimicrobial/resistance and tolerance in war-wound pathogens", "Seminar Series", "Stanislaus State", "2016",
+  "A biologist and a sociologist walk into a…CRISPR", "Central Valley Cafe Scientifique", "Fresno, CA", "2015",
+  "Role of the mevalonate pathway in the patho-physiology of Borrelia burgdorferi", "South Texas Center for Emerging Infectious Diseases", "The University of Texas at San Antonio", "2011",
+  
 ) %>% 
   brief_entries(glue::glue("\\textbf{<title>}: <organization>, <location>", .open = "<", .close = ">"), paste0(year), .protect = FALSE)
 ```
+
+# Grants and Funding (Total funding: $804,891)
+
+Stanislaus State
+```{r}
+tribble(
+  ~ award, ~ year, ~ amount,
+  "Research, Scholarly, and Creative Activity Award", "2023", "10,000",
+  "National Science Foundation New Faculty Enhancement Grant (Co-PI)", "2022", "467,622",
+  "Research, Scholarly, and Creative Activity Award", "2022", "10,000",
+  
+) %>%
+brief_entries(glue::glue("\\textbf{{<award>}} \\hfill \\${{<amount>}}", .open = "<", .close = ">"), paste0(year), .protect = FALSE)
+```
+\newpage
+Fresno State
+```{r}
+tribble(
+  ~ award, ~ year, ~ amount,
+  "CSUPERB New Investigator Seed Grant (Co-PI)", "2022", "14,919", 
+  "College of Science and Mathematics Scholarly and Creative Activity Award", "2020", "5,000",
+  "CSU-STEM NET Grant (Co-PI)", "2019", "50,000",
+  "CSU Program for Education and Research in Biotechnology Curriculum Redesign Award", "2019", "15,000",
+  "College of Science and Mathematics Professional Development Award", "2018", "5,000",
+  "College of Science and Mathematics Scholarly and Creative Activity Award (Co-PI)", "2018", "5,000",
+  "College of Science and Mathematics Scholarly and Creative Activity Award (Co-PI)", "2018", "5,000",
+  "Biology Travel Award", "2017", "1,000",
+  "College of Science and Mathematics Scholarly and Creative Activity Award", "2017", "7,000",
+  "College of Science and Mathematics Scholarly and Creative Activity Award", "2017", "5,000",
+  "College of Science and Mathematics Professional Development Award", "2017", "950",
+  "Biology Travel Award", "2016", "500",
+  "College of Science and Mathematics Professional Development Award", "2016", "1,200",
+  "Biology Travel Award", "2015", "1,000",
+  
+) %>%
+  brief_entries(glue::glue("\\textbf{{<award>}} \\hfill \\${{<amount>}}", .open = "<", .close = ">"), paste0(year), .protect = FALSE)
+```
+
+Older Funding
+```{r}
+tribble(
+  ~ award, ~ year, ~ amount,
+  "National Research Council Post-Doctoral Fellowship", "2012", "150,000",
+  "Center for Excellence in Infection Genomics Doctoral Scholarship", "2011", "30,000",
+  "South Texas Center for Emerging Infectious Diseases PhD Fellowship", "2010", "30,000",
+  "UTSA Presidential Dissertation Fellowship", "2010", "1,500"
+  
+) %>%
+  brief_entries(glue::glue("\\textbf{{<award>}} \\hfill \\${{<amount>}}", .open = "<", .close = ">"), paste0(year), .protect = FALSE)
+```
+
+# Honors and Awards
+
+Fresno State
+```{r}
+tribble(
+  ~ award, ~ year,
+  "Provost Award for Promising New Faculty", "2020",
+  "Outstanding Advisor Nominee", "2019"
+) %>%
+  brief_entries(award, year)
+```
+
+Older Awards
+```{r}
+tribble(
+  ~ award, ~ year,
+  "O.B. Williams Award for Oral Presentation at Texas ASM meeting", "2009",
+  "First Place Oral Presentation Stanislaus State Research Competition", "2005"
+) %>%
+  brief_entries(award, year)
+```
+
+<!-- # Outreach and Service Section -->
+# Outreach and Service
+
+Stanislaus State
+
+*	Darwin Day Presenter (2024)
+* CSUBIOTECH Nagel Award Selection Committee (2023-Present)
+*	ASPIRE STEM 4 PALS Presenter (2023-present)
+*	Social Media (Instagram/Twitter) (2022-Present)
+
+Fresno State
+
+*	American Society for Microbiology Abstract and Travel Award Reviewer (2020-present)
+*	Fresno Audubon Society Campus Walks (2019-2022)
+*	American Ornithological Society Poster Judge (2018-present)
+*	College of Science and Mathematics Day of Giving (2018)
+*	Feria de Educacion/Day of Discovery (2018-2022)
+*	Science Olympiad Preparation with University High School (2017 & 2018)
+*	Central California Research Symposium Judge (2017-2021)
+*	Annual Biomedical Conference for Minority Students Presentation Judge (2016)
+*	Café Scientifique Website, Facebook Page, Twitter Account (2016-2022)
+*	Division of Graduate Studies Symposium Judge (2016)
+*	Head Microbiology Judge for the Central California Regional Science, Math & Engineering Fair (2016)
+*	Expanding Your Horizons Presenter (2015-2018)
+
+
+<!-- # Professional Society Membership Section -->
+# Professional Society Membership
+
+* American Ornithological Society
+* American Society for Microbiology
+
+<!-- # Professional Service Section -->
+# Professional Service
+
+* Associate editor for mSystems 
+* Reviewer for Genes, Medical Sciences, mSystems, Microbiome, Microorganisms, Molecules, Molecular Biology and Evolution, Data, Biomolecules, Pharmaceuticals
+* Reviewer for NSF 
+* Reviewer for Microbiology: An Evolving Science 5e Textbook (Norton Publishing)
+
