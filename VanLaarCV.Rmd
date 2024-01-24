@@ -23,6 +23,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 library(here)
+library(tidyverse)
 ```
 
 ```{r functions}
@@ -70,7 +71,7 @@ professional %>%
 ```
 
 # Peer-Reviewed Publications (Student Authors Underlined)
-<span style="font-size: 4pt;">
+
 \setlength{\leftskip}{0cm}
 **2023**
 
@@ -144,7 +145,7 @@ Childers, B. M., **Van Laar, T. A.**, You, T., Clegg, S., & Leung, K. P. (2013).
 Raju, B. V. S., Esteve-Gassent, M. D., Karna, S. L. R., Miller, C. L., **Van Laar, T. A.**, & Seshu, J. (2011). Oligopeptide permease A5 modulates vertebrate host-specific adaptation of *Borrelia burgdorferi*. Infection and Immunity, 79(8), 3407–3420. https://doi.org/10.1128/IAI.05234-11
 
 \setlength{\leftskip}{0cm}
-</span>
+
 # Editor Accepted Publications (Student Authors Underlined)
 
 **2017**
@@ -171,3 +172,13 @@ Raju, B. V. S., Esteve-Gassent, M. D., Karna, S. L. R., Miller, C. L., **Van Laa
 # Book Chapters
 
 Seshu, J., Smith, T. C. 2nd, Lin, Y.-H., Karna, S. L. R., Miller, C. L., & **Van Laar, T. A.** (2018). Analysis of DNA and RNA Binding Properties of *Borrelia burgdorferi* Regulatory Proteins. Methods in Molecular Biology (Clifton, N.J.), 1690, 155–175. https://doi.org/10.1007/978-1-4939-7383-5_13
+
+# Invited Seminars
+
+```{r seminars}
+tribble(
+  ~ title, ~ organization, ~ location, ~ year,
+  "Math is for the Birds", "Seminar Series for the Quanititatively Curious", "California State University, Stanislaus", "2023",
+) %>% 
+  brief_entries(glue::glue("\\textbf{<title>}: <organization>, <location>", .open = "<", .close = ">"), paste0(year), .protect = FALSE)
+```
