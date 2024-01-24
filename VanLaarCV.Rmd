@@ -1,0 +1,173 @@
+---
+name: Tricia
+surname: Van Laar
+position: "Assistant Professor of Microbial Genomics"
+profilepic: "img/tricia.jpg"
+address: "Department of Biological Sciences, California State University Stanislaus"
+phone: +1 209 667 3695
+email: "tvanlaar@csustan.edu"
+#twitter: tvanlaarmicro
+github: tvanlaar
+linkedin: tvanlaar
+orcid: 0000-0002-4654-8501
+date: "`r format(Sys.time(), '%B %Y')`"
+#aboutme: "Dr. Van Laar is an educator and scientist interested in all things microbial."
+
+headcolor: 414141
+output: 
+  vitae::awesomecv:
+    page_total: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(here)
+```
+
+```{r functions}
+readExcelSheets <- function(filename){
+  # read all sheets in .xlsx 
+  all <- readxl::excel_sheets(filename)
+  
+  # import each sheet into a list using readxl::read_excel
+  list <- lapply(all, function(x) readxl::read_excel(filename, sheet = x))
+  
+  # save sheet name for each sheet (list)
+  names(list) <- all
+  
+  # breaks up list and creates a dataframe for each sheet with df names matching sheet names
+  list2env(list, envir = .GlobalEnv)
+}
+```
+
+```{r load-data, message=F, results='hide'}
+filename <- here::here("~/Desktop/CSUStan/MiscWorkRelatedDocs/VanLaarCV/vanlaar_vitae_data.xlsx")
+
+readExcelSheets(filename)
+```
+
+I am an educator and scientist interested in all things microbial. 
+
+# Education
+
+```{r}
+education %>% 
+  detailed_entries(what = degree,
+                   when = year,
+                   with = institution,
+                   where = where,
+                   why = details)
+```
+
+# Professional Positions
+```{r}
+professional %>% 
+  detailed_entries(what = role,
+                   when = dates,
+                   with = institution,
+                   where = where)
+```
+
+# Peer-Reviewed Publications (Student Authors Underlined)
+<span style="font-size: 4pt;">
+\setlength{\leftskip}{0cm}
+**2023**
+
+\setlength{\leftskip}{1cm}
+Whittaker, D. J., Atyam, A., Burroughs, N. A., Greenberg, J. M., Hagey, T. J., Novotny, M. V., Soini, H. A., Theis, K. R., **Van Laar, T. A.**, & Slade, J. W. G. (2023). Effects of short-term experimental manipulation of captive social environment on uropygial gland microbiome and preen oil volatile composition. Frontiers in Ecology and Evolution, 10. https://www.frontiersin.org/articles/10.3389/fevo.2022.1027399
+
+\setlength{\leftskip}{0cm}
+**2022**
+
+\setlength{\leftskip}{1cm}
+**Van Laar, T. A.**, \underline{Biehler, L.}, & Slade, J. W. G. (2022). Draft Genome Sequence of a Multidrug-Resistant Strain of *Salmonella enterica* Serovar Typhimurium Isolated from a Pine Siskin (*Spinus pinus*). Microbiology Resource Announcements, e0098222. https://doi.org/10.1128/mra.00982-22
+
+\setlength{\leftskip}{0cm}
+**2020**
+
+\setlength{\leftskip}{1cm}
+\underline{Osborne, C. J.}, \underline{Wakeman-Hill, A. J.}, \underline{Loa, S. E.}, Crosbie, P. R., & **Van Laar, T. A.** (2020). *Rickettsia* spp. In Five Tick Species Collected in Central California. Journal of Medical Entomology, 57(5), 1596–1603. https://doi.org/10.1093/jme/tjaa080
+
+\underline{Avila, A. T.}, **Van Laar, T. A.**, Constable, J. V. H., & Waselkov, K. (2020). 16S rRNA Gene Diversity of Bacterial Endophytes in Parasitic *Cuscuta campestris* and Its *Helianthus annuus* Host. Microbiology Resource Announcements, 9(43). https://doi.org/10.1128/MRA.00968-20
+
+\setlength{\leftskip}{0cm}
+**2019**
+
+\setlength{\leftskip}{1cm}
+\underline{Osborne, C. J.}, Crosbie, P. R., & **Van Laar, T. A.** (2019). *Borrelia parkeri* in *Ornithodoros parkeri* (Ixodida: Argasidae) Collected Using Compact Dry Ice Traps in Madera County, California. Journal of Medical Entomology, 56(2), 579–583. https://doi.org/10.1093/jme/tjy213
+
+\underline{Esani, S.}, Chen, T., Leung, K. P., & **Van Laar, T. A.** (2019). Transcriptome Sequence of Antibiotic-Treated *Pseudomonas aeruginosa*. Microbiology Resource Announcements, 8(12). https://doi.org/10.1128/MRA.01367-18
+
+\setlength{\leftskip}{0cm}
+**2018**
+
+\setlength{\leftskip}{1cm}
+**Van Laar, T. A.**, \underline{Esani, S.}, \underline{Birges, T. J.}, Hazen, B., \underline{Thomas, J. M.}, & Rawat, M. (2018). *Pseudomonas aeruginosa gshA* Mutant Is Defective in Biofilm Formation, Swarming, and Pyocyanin Production. mSphere, 3(2). https://doi.org/10.1128/mSphere.00155-18
+
+\setlength{\leftskip}{0cm}
+**2017**
+
+\setlength{\leftskip}{1cm}
+Miller, C. L., **Van Laar, T. A.**, Chen, T., Karna, S. L. R., Chen, P., You, T., & Leung, K. P. (2017). Global transcriptome responses including small RNAs during mixed-species interactions with methicillin-resistant *Staphylococcus aureus* and *Pseudomonas aeruginosa*. MicrobiologyOpen, 6(3). https://doi.org/10.1002/mbo3.427
+
+Lin, Y.-H., Romo, J. A., Smith, T. C. 2nd, Reyes, A. N., Karna, S. L. R., Miller, C. L., **Van Laar, T. A.**, Yendapally, R., Chambers, J. P., & Seshu, J. (2017). Spermine and Spermidine Alter Gene Expression and Antigenic Profile of *Borrelia burgdorferi*. Infection and Immunity, 85(3). https://doi.org/10.1128/IAI.00684-16
+
+\setlength{\leftskip}{0cm}
+**2016**
+
+\setlength{\leftskip}{1cm}
+**Van Laar, T. A.**, Hole, C., Rajasekhar Karna, S. L., Miller, C. L., Reddick, R., Wormley, F. L., & Seshu, J. (2016). Statins reduce spirochetal burden and modulate immune responses in the C3H/HeN mouse model of Lyme disease. Microbes and Infection, 18(6), 430–435. https://doi.org/10.1016/j.micinf.2016.03.004
+
+\setlength{\leftskip}{0cm}
+**2015**
+
+\setlength{\leftskip}{1cm}
+**Van Laar, T. A.**, Chen, T., You, T., & Leung, K. P. (2015). Sublethal concentrations of carbapenems alter cell morphology and genomic expression of *Klebsiella pneumoniae* biofilms. Antimicrobial Agents and Chemotherapy, 59(3), 1707–1717. https://doi.org/10.1128/AAC.04581-14
+
+\setlength{\leftskip}{0cm}
+**2013**
+
+\setlength{\leftskip}{1cm}
+Childers, B. M., **Van Laar, T. A.**, You, T., Clegg, S., & Leung, K. P. (2013). MrkD1P from *Klebsiella pneumoniae* strain IA565 allows for coexistence with *Pseudomonas aeruginosa* and protection from protease-mediated biofilm detachment. Infection and Immunity, 81(11), 4112–4120. https://doi.org/10.1128/IAI.00521-13
+
+\setlength{\leftskip}{0cm}
+**2012**
+
+\setlength{\leftskip}{1cm}
+**Van Laar, T. A.**, Lin, Y.-H., Miller, C. L., Karna, S. L. R., Chambers, J. P., & Seshu, J. (2012). Effect of levels of acetate on the mevalonate pathway of *Borrelia burgdorferi*. PloS One, 7(5), e38171. https://doi.org/10.1371/journal.pone.0038171
+
+\setlength{\leftskip}{0cm}
+**2011**
+
+\setlength{\leftskip}{1cm}
+Raju, B. V. S., Esteve-Gassent, M. D., Karna, S. L. R., Miller, C. L., **Van Laar, T. A.**, & Seshu, J. (2011). Oligopeptide permease A5 modulates vertebrate host-specific adaptation of *Borrelia burgdorferi*. Infection and Immunity, 79(8), 3407–3420. https://doi.org/10.1128/IAI.05234-11
+
+\setlength{\leftskip}{0cm}
+</span>
+# Editor Accepted Publications (Student Authors Underlined)
+
+**2017**
+
+\setlength{\leftskip}{1cm}
+\underline{Esani, S.}, Constable, J. V. H., & **Van Laar, T. A.** (2017). Draft Genome Sequence of a Multidrug-Resistant Strain of *Enterococcus faecalis*, PM01, Isolated from the Nest of an American Bushtit, *Psaltriparus minimus*. Genome Announcements, 5(11). https://doi.org/10.1128/genomeA.00017-17
+
+\setlength{\leftskip}{0cm}
+**2016**
+
+\setlength{\leftskip}{1cm}
+\underline{Kennedy, V.}, **Van Laar, T. A.**, \underline{Aleru, O.}, Thomas, M., Ganci, M., & Rawat, M. (2016). Genome Sequences of Three Spore-Forming Bacteria Isolated from the Feces of Organically Raised Chickens. Genome Announcements, 4(5). https://doi.org/10.1128/genomeA.00880-16
+
+\underline{Nelson, R. L.}, \underline{Castro, M. A.}, Katti, M., Eisen, J. A., & **Van Laar, T. A.** (2016). Genome Sequence of a Multidrug-Resistant Strain of *Bacillus pumilus*, CB01, Isolated from the Feces of an American Crow, *Corvus brachyrhynchos*. Genome Announcements, 4(4). https://doi.org/10.1128/genomeA.00807-16
+
+\setlength{\leftskip}{0cm}
+**2014**
+
+\setlength{\leftskip}{1cm}
+**Van Laar, T. A.**, Chen, T., Childers, B. M., Chen, P., Abercrombie, J. J., & Leung, K. P. (2014). Genome Sequence of a Multidrug-Resistant Strain of *Klebsiella pneumoniae*, BAMC 07-18, Isolated from a Combat Injury Wound. Genome Announcements, 2(6). https://doi.org/10.1128/genomeA.01230-14
+
+\setlength{\leftskip}{0cm}
+
+# Book Chapters
+
+Seshu, J., Smith, T. C. 2nd, Lin, Y.-H., Karna, S. L. R., Miller, C. L., & **Van Laar, T. A.** (2018). Analysis of DNA and RNA Binding Properties of *Borrelia burgdorferi* Regulatory Proteins. Methods in Molecular Biology (Clifton, N.J.), 1690, 155–175. https://doi.org/10.1007/978-1-4939-7383-5_13
