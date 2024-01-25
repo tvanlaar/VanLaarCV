@@ -26,48 +26,40 @@ library(here)
 library(tidyverse)
 ```
 
-```{r functions}
-readExcelSheets <- function(filename){
-  # read all sheets in .xlsx 
-  all <- readxl::excel_sheets(filename)
-  
-  # import each sheet into a list using readxl::read_excel
-  list <- lapply(all, function(x) readxl::read_excel(filename, sheet = x))
-  
-  # save sheet name for each sheet (list)
-  names(list) <- all
-  
-  # breaks up list and creates a dataframe for each sheet with df names matching sheet names
-  list2env(list, envir = .GlobalEnv)
-}
-```
-
-```{r load-data, message=F, results='hide'}
-filename <- here::here("~/Desktop/CSUStan/MiscWorkRelatedDocs/VanLaarCV/vanlaar_vitae_data.xlsx")
-
-readExcelSheets(filename)
-```
-
-I am an educator and scientist interested in all things microbial. 
-
 # Education
-
-```{r}
-education %>% 
-  detailed_entries(what = degree,
-                   when = year,
-                   with = institution,
-                   where = where,
-                   why = details)
+```{r education}
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+  "MBA", "California State University, Stanislaus", "Fresno, CA", "Expected 2024", 
+    list("Course work in Human Resources, New Venture Management, and Strategic Marketing"),
+  "Ph.D. in Biology with an emphasis in Cell and Molecular Biology", "The University of Texas at San Antonio", "San Antonio, TX", "2012", 
+    list("Dissertation Project: Role of the mevalonate pathway in the patho-physiology of \\textit{Borrelia burgdorferi}",
+         "Major Advisor: J. Seshu, Ph.D."),
+  "MS in Biology", "University of the Pacific", "Stockton, CA", "2007", 
+    list("Thesis Project: The behavior of Rad51D and XRCC2 in response to drug induced DNA damage and a continuing study of the fly Rad51 paralogs",
+         "Major Advisor: Lisa Wrischnik, Ph.D."),
+   "BS in Biology", "California State University, Stanislaus", "Turlock, CA", "2005", 
+    list("Minor in Chemistry, Concentration in Genetics",
+         "Research Project: Speciation of \\textit{Sylvilagus bachmani riparius}",
+         "Major Advisor: Jim Youngblom, Ph.D.")
+) %>% 
+  detailed_entries(degree, dates, uni, loc, details)
 ```
 
 # Professional Positions
-```{r}
-professional %>% 
-  detailed_entries(what = role,
-                   when = dates,
-                   with = institution,
-                   where = where)
+```{r professional}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates,
+  "Assistant Professor of Microbial Genomics", "California State University, Stanislaus", "Turlock, CA", "08/2022 - Present", 
+  "Associate Professor of Microbiology", "California State University, Fresno", "Fresno, CA", "08/2021-08/2022",
+   "Assistant Professor of Microbiology", "California State University, Fresno", "Fresno, CA", "08/2015-08/2021",
+  "Adjunct Instructor", "St. Philip's College", "San Antonio, TX", "08/2014-08/2015",
+  "NRC Post-doctoral Fellow", "US Army Institute for Surgical Research, Dental and Trauma Research Detachment", "JBSA Ft. Sam Houston, TX", "04/2012-07/2015",
+ "Graduate Research and Teaching Assistant", "The University of Texas at San Antonio", "San Antonio, TX", "08/2007-03/2012",
+ "Graduate Research and Teaching Assistant", "University of the Pacific", "Stockton, CA", "08/2005-08/2005",
+ "Undergraduate Research Assistant", "Endangered Species Recovery Program", "Turlock, CA", "04/2004-05/2005"
+) %>% 
+  detailed_entries(role, dates, company, loc)
 ```
 
 <!-- # Publications Section -->
