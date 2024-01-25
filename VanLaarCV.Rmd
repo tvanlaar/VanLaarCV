@@ -141,7 +141,7 @@ Childers, B. M., **Van Laar, T. A.**, You, T., Clegg, S., & Leung, K. P. (2013).
 
 \setlength{\leftskip}{1cm}
 **Van Laar, T. A.**, Lin, Y.-H., Miller, C. L., Karna, S. L. R., Chambers, J. P., & Seshu, J. (2012). Effect of levels of acetate on the mevalonate pathway of *Borrelia burgdorferi*. PloS One, 7(5), e38171. https://doi.org/10.1371/journal.pone.0038171
-
+\newpage
 \setlength{\leftskip}{0cm}
 **2011**
 
@@ -295,7 +295,7 @@ Fresno State
 *	Head Microbiology Judge for the Central California Regional Science, Math & Engineering Fair (2016)
 *	Expanding Your Horizons Presenter (2015-2018)
 
-
+\newpage
 <!-- # Professional Society Membership Section -->
 # Professional Society Membership
 
