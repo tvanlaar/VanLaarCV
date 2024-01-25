@@ -30,7 +30,7 @@ library(tidyverse)
 ```{r education}
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
-  "MBA", "California State University, Stanislaus", "Fresno, CA", "Expected 2024", 
+  "MBA", "California State University, Fresno", "Fresno, CA", "Expected 2024", 
     list("Course work in Human Resources, New Venture Management, and Strategic Marketing"),
   "Ph.D. in Biology with an emphasis in Cell and Molecular Biology", "The University of Texas at San Antonio", "San Antonio, TX", "2012", 
     list("Dissertation Project: Role of the mevalonate pathway in the patho-physiology of \\textit{Borrelia burgdorferi}",
