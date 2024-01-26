@@ -67,107 +67,152 @@ tribble(
 # Peer-Reviewed Publications (Student Authors Underlined)
 
 \setlength{\leftskip}{0cm}
-**2023**
+\textbf{2023}
 
 \setlength{\leftskip}{1cm}
-Whittaker, D. J., Atyam, A., Burroughs, N. A., Greenberg, J. M., Hagey, T. J., Novotny, M. V., Soini, H. A., Theis, K. R., **Van Laar, T. A.**, & Slade, J. W. G. (2023). Effects of short-term experimental manipulation of captive social environment on uropygial gland microbiome and preen oil volatile composition. Frontiers in Ecology and Evolution, 10. https://www.frontiersin.org/articles/10.3389/fevo.2022.1027399
+\begin{footnotesize}
+Whittaker, D. J., Atyam, A., Burroughs, N. A., Greenberg, J. M., Hagey, T. J., Novotny, M. V., Soini, H. A., Theis, K. R., \textbf{Van Laar, T. A.}, \& Slade, J. W. G. (2023). Effects of short-term experimental manipulation of captive social environment on uropygial gland microbiome and preen oil volatile composition. Frontiers in Ecology and Evolution, 10. \url{https://www.frontiersin.org/articles/10.3389/fevo.2022.1027399}
+\end{footnotesize}
 
 \newpage 
 
 \setlength{\leftskip}{0cm}
-**2022**
+\textbf{2022}
 
 \setlength{\leftskip}{1cm}
-**Van Laar, T. A.**, \underline{Biehler, L.}, & Slade, J. W. G. (2022). Draft Genome Sequence of a Multidrug-Resistant Strain of *Salmonella enterica* Serovar Typhimurium Isolated from a Pine Siskin (*Spinus pinus*). Microbiology Resource Announcements, e0098222. https://doi.org/10.1128/mra.00982-22
+\begin{footnotesize}
+\textbf{Van Laar, T. A.}, \underline{Biehler, L.}, \& Slade, J. W. G. (2022). Draft Genome Sequence of a Multidrug-Resistant Strain of \textit{Salmonella enterica} Serovar Typhimurium Isolated from a Pine Siskin (\textit{Spinus pinus}). Microbiology Resource Announcements, e0098222. \url{https://doi.org/10.1128/mra.00982-22}
+\end{footnotesize}
 
 \setlength{\leftskip}{0cm}
-**2020**
+\textbf{2020}
 
 \setlength{\leftskip}{1cm}
-\underline{Osborne, C. J.}, \underline{Wakeman-Hill, A. J.}, \underline{Loa, S. E.}, Crosbie, P. R., & **Van Laar, T. A.** (2020). *Rickettsia* spp. In Five Tick Species Collected in Central California. Journal of Medical Entomology, 57(5), 1596–1603. https://doi.org/10.1093/jme/tjaa080
+\begin{footnotesize}
+\underline{Osborne, C. J.}, \underline{Wakeman-Hill, A. J.}, \underline{Loa, S. E.}, Crosbie, P. R., \& \textbf{Van Laar, T. A.} (2020). \textit{Rickettsia} spp. In Five Tick Species Collected in Central California. Journal of Medical Entomology, 57(5), 1596–1603. \url{https://doi.org/10.1093/jme/tjaa080}
+\end{footnotesize}
 
-\underline{Avila, A. T.}, **Van Laar, T. A.**, Constable, J. V. H., & Waselkov, K. (2020). 16S rRNA Gene Diversity of Bacterial Endophytes in Parasitic *Cuscuta campestris* and Its *Helianthus annuus* Host. Microbiology Resource Announcements, 9(43). https://doi.org/10.1128/MRA.00968-20
+\begin{footnotesize}
+\underline{Avila, A. T.}, \textbf{Van Laar, T. A.}, Constable, J. V. H., \& Waselkov, K. (2020). 16S rRNA Gene Diversity of Bacterial Endophytes in Parasitic \textit{Cuscuta campestris} and Its \textit{Helianthus annuus} Host. Microbiology Resource Announcements, 9(43). \url{https://doi.org/10.1128/MRA.00968-20}
+\end{footnotesize}
 
 \setlength{\leftskip}{0cm}
-**2019**
+\textbf{2019}
 
 \setlength{\leftskip}{1cm}
-\underline{Osborne, C. J.}, Crosbie, P. R., & **Van Laar, T. A.** (2019). *Borrelia parkeri* in *Ornithodoros parkeri* (Ixodida: Argasidae) Collected Using Compact Dry Ice Traps in Madera County, California. Journal of Medical Entomology, 56(2), 579–583. https://doi.org/10.1093/jme/tjy213
+\begin{footnotesize}
+\underline{Osborne, C. J.}, Crosbie, P. R., \& \textbf{Van Laar, T. A.} (2019). \textit{Borrelia parkeri} in \textit{Ornithodoros parkeri} (Ixodida: Argasidae) Collected Using Compact Dry Ice Traps in Madera County, California. Journal of Medical Entomology, 56(2), 579–583. \url{https://doi.org/10.1093/jme/tjy213}
+\end{footnotesize}
 
-\underline{Esani, S.}, Chen, T., Leung, K. P., & **Van Laar, T. A.** (2019). Transcriptome Sequence of Antibiotic-Treated *Pseudomonas aeruginosa*. Microbiology Resource Announcements, 8(12). https://doi.org/10.1128/MRA.01367-18
+\begin{footnotesize}
+\underline{Esani, S.}, Chen, T., Leung, K. P., \& \textbf{Van Laar, T. A.} (2019). Transcriptome Sequence of Antibiotic-Treated \textit{Pseudomonas aeruginosa}. Microbiology Resource Announcements, 8(12). \url{https://doi.org/10.1128/MRA.01367-18}
+\end{footnotesize}
 
 \setlength{\leftskip}{0cm}
-**2018**
+\textbf{2018}
 
 \setlength{\leftskip}{1cm}
-**Van Laar, T. A.**, \underline{Esani, S.}, \underline{Birges, T. J.}, Hazen, B., \underline{Thomas, J. M.}, & Rawat, M. (2018). *Pseudomonas aeruginosa gshA* Mutant Is Defective in Biofilm Formation, Swarming, and Pyocyanin Production. mSphere, 3(2). https://doi.org/10.1128/mSphere.00155-18
+\begin{footnotesize}
+\textbf{Van Laar, T. A.}, \underline{Esani, S.}, \underline{Birges, T. J.}, Hazen, B., \underline{Thomas, J. M.}, \& Rawat, M. (2018). \textit{Pseudomonas aeruginosa gshA} Mutant Is Defective in Biofilm Formation, Swarming, and Pyocyanin Production. mSphere, 3(2). \url{https://doi.org/10.1128/mSphere.00155-18}
+\end{footnotesize}
 
 \setlength{\leftskip}{0cm}
-**2017**
+\textbf{2017}
 
 \setlength{\leftskip}{1cm}
-Miller, C. L., **Van Laar, T. A.**, Chen, T., Karna, S. L. R., Chen, P., You, T., & Leung, K. P. (2017). Global transcriptome responses including small RNAs during mixed-species interactions with methicillin-resistant *Staphylococcus aureus* and *Pseudomonas aeruginosa*. MicrobiologyOpen, 6(3). https://doi.org/10.1002/mbo3.427
+\begin{footnotesize}
+Miller, C. L., \textbf{Van Laar, T. A.}, Chen, T., Karna, S. L. R., Chen, P., You, T., \& Leung, K. P. (2017). Global transcriptome responses including small RNAs during mixed-species interactions with methicillin-resistant \textit{Staphylococcus aureus} and \textit{Pseudomonas aeruginosa}. MicrobiologyOpen, 6(3). \url{https://doi.org/10.1002/mbo3.427}
+\end{footnotesize}
 
-Lin, Y.-H., Romo, J. A., Smith, T. C. 2nd, Reyes, A. N., Karna, S. L. R., Miller, C. L., **Van Laar, T. A.**, Yendapally, R., Chambers, J. P., & Seshu, J. (2017). Spermine and Spermidine Alter Gene Expression and Antigenic Profile of *Borrelia burgdorferi*. Infection and Immunity, 85(3). https://doi.org/10.1128/IAI.00684-16
+\begin{footnotesize}
+Lin, Y.-H., Romo, J. A., Smith, T. C. 2nd, Reyes, A. N., Karna, S. L. R., Miller, C. L., \textbf{Van Laar, T. A.}, Yendapally, R., Chambers, J. P., \& Seshu, J. (2017). Spermine and Spermidine Alter Gene Expression and Antigenic Profile of \textit{Borrelia burgdorferi}. Infection and Immunity, 85(3). \url{https://doi.org/10.1128/IAI.00684-16}
+\end{footnotesize}
 
 \setlength{\leftskip}{0cm}
-**2016**
+\textbf{2016}
 
 \setlength{\leftskip}{1cm}
-**Van Laar, T. A.**, Hole, C., Rajasekhar Karna, S. L., Miller, C. L., Reddick, R., Wormley, F. L., & Seshu, J. (2016). Statins reduce spirochetal burden and modulate immune responses in the C3H/HeN mouse model of Lyme disease. Microbes and Infection, 18(6), 430–435. https://doi.org/10.1016/j.micinf.2016.03.004
+\begin{footnotesize}
+\textbf{Van Laar, T. A.}, Hole, C., Rajasekhar Karna, S. L., Miller, C. L., Reddick, R., Wormley, F. L., \& Seshu, J. (2016). Statins reduce spirochetal burden and modulate immune responses in the C3H/HeN mouse model of Lyme disease. Microbes and Infection, 18(6), 430–435. \url{https://doi.org/10.1016/j.micinf.2016.03.004}
+\end{footnotesize}
 
 \setlength{\leftskip}{0cm}
-**2015**
+\textbf{2015}
 
 \setlength{\leftskip}{1cm}
-**Van Laar, T. A.**, Chen, T., You, T., & Leung, K. P. (2015). Sublethal concentrations of carbapenems alter cell morphology and genomic expression of *Klebsiella pneumoniae* biofilms. Antimicrobial Agents and Chemotherapy, 59(3), 1707–1717. https://doi.org/10.1128/AAC.04581-14
+\begin{footnotesize}
+\textbf{Van Laar, T. A.}, Chen, T., You, T., \& Leung, K. P. (2015). Sublethal concentrations of carbapenems alter cell morphology and genomic expression of \textit{Klebsiella pneumoniae} biofilms. Antimicrobial Agents and Chemotherapy, 59(3), 1707–1717. \url{https://doi.org/10.1128/AAC.04581-14}
+\end{footnotesize}
 
 \setlength{\leftskip}{0cm}
-**2013**
+\textbf{2013}
 
 \setlength{\leftskip}{1cm}
-Childers, B. M., **Van Laar, T. A.**, You, T., Clegg, S., & Leung, K. P. (2013). MrkD1P from *Klebsiella pneumoniae* strain IA565 allows for coexistence with *Pseudomonas aeruginosa* and protection from protease-mediated biofilm detachment. Infection and Immunity, 81(11), 4112–4120. https://doi.org/10.1128/IAI.00521-13
+\begin{footnotesize}
+Childers, B. M., \textbf{Van Laar, T. A.}, You, T., Clegg, S., \& Leung, K. P. (2013). MrkD1P from \textit{Klebsiella pneumoniae} strain IA565 allows for coexistence with \textit{Pseudomonas aeruginosa} and protection from protease-mediated biofilm detachment. Infection and Immunity, 81(11), 4112–4120. \url{https://doi.org/10.1128/IAI.00521-13}
+\end{footnotesize}
 
 \setlength{\leftskip}{0cm}
-**2012**
+\textbf{2012}
 
 \setlength{\leftskip}{1cm}
-**Van Laar, T. A.**, Lin, Y.-H., Miller, C. L., Karna, S. L. R., Chambers, J. P., & Seshu, J. (2012). Effect of levels of acetate on the mevalonate pathway of *Borrelia burgdorferi*. PloS One, 7(5), e38171. https://doi.org/10.1371/journal.pone.0038171
+\begin{footnotesize}
+\textbf{Van Laar, T. A.}, Lin, Y.-H., Miller, C. L., Karna, S. L. R., Chambers, J. P., \& Seshu, J. (2012). Effect of levels of acetate on the mevalonate pathway of \textit{Borrelia burgdorferi}. PloS One, 7(5), e38171. \url{https://doi.org/10.1371/journal.pone.0038171}
+\end{footnotesize}
 \newpage
+
 \setlength{\leftskip}{0cm}
-**2011**
+\textbf{2011}
 
 \setlength{\leftskip}{1cm}
-Raju, B. V. S., Esteve-Gassent, M. D., Karna, S. L. R., Miller, C. L., **Van Laar, T. A.**, & Seshu, J. (2011). Oligopeptide permease A5 modulates vertebrate host-specific adaptation of *Borrelia burgdorferi*. Infection and Immunity, 79(8), 3407–3420. https://doi.org/10.1128/IAI.05234-11
+\begin{footnotesize}
+Raju, B. V. S., Esteve-Gassent, M. D., Karna, S. L. R., Miller, C. L., \textbf{Van Laar, T. A.}, \& Seshu, J. (2011). Oligopeptide permease A5 modulates vertebrate host-specific adaptation of \textit{Borrelia burgdorferi}. Infection and Immunity, 79(8), 3407–3420. \url{https://doi.org/10.1128/IAI.05234-11}
+\end{footnotesize}
 
 \setlength{\leftskip}{0cm}
+
 
 # Editor Accepted Publications (Student Authors Underlined)
 
 **2017**
 
 \setlength{\leftskip}{1cm}
-\underline{Esani, S.}, Constable, J. V. H., & **Van Laar, T. A.** (2017). Draft Genome Sequence of a Multidrug-Resistant Strain of *Enterococcus faecalis*, PM01, Isolated from the Nest of an American Bushtit, *Psaltriparus minimus*. Genome Announcements, 5(11). https://doi.org/10.1128/genomeA.00017-17
+
+\begin{footnotesize}
+\underline{Esani, S.}, Constable, J. V. H., \& \textbf{Van Laar, T. A.} (2017). Draft Genome Sequence of a Multidrug-Resistant Strain of \textit{Enterococcus faecalis}, PM01, Isolated from the Nest of an American Bushtit, \textit{Psaltriparus minimus}. Genome Announcements, 5(11). \url{https://doi.org/10.1128/genomeA.00017-17}
+\end{footnotesize}
 
 \setlength{\leftskip}{0cm}
-**2016**
+\textbf{2016}
 
 \setlength{\leftskip}{1cm}
-\underline{Kennedy, V.}, **Van Laar, T. A.**, \underline{Aleru, O.}, Thomas, M., Ganci, M., & Rawat, M. (2016). Genome Sequences of Three Spore-Forming Bacteria Isolated from the Feces of Organically Raised Chickens. Genome Announcements, 4(5). https://doi.org/10.1128/genomeA.00880-16
+\begin{footnotesize}
+\underline{Kennedy, V.}, \textbf{Van Laar, T. A.}, \underline{Aleru, O.}, Thomas, M., Ganci, M., \& Rawat, M. (2016). Genome Sequences of Three Spore-Forming Bacteria Isolated from the Feces of Organically Raised Chickens. Genome Announcements, 4(5). \url{https://doi.org/10.1128/genomeA.00880-16}
+\end{footnotesize}
 
-\underline{Nelson, R. L.}, \underline{Castro, M. A.}, Katti, M., Eisen, J. A., & **Van Laar, T. A.** (2016). Genome Sequence of a Multidrug-Resistant Strain of *Bacillus pumilus*, CB01, Isolated from the Feces of an American Crow, *Corvus brachyrhynchos*. Genome Announcements, 4(4). https://doi.org/10.1128/genomeA.00807-16
+\begin{footnotesize}
+\underline{Nelson, R. L.}, \underline{Castro, M. A.}, Katti, M., Eisen, J. A., \& \textbf{Van Laar, T. A.} (2016). Genome Sequence of a Multidrug-Resistant Strain of \textit{Bacillus pumilus}, CB01, Isolated from the Feces of an American Crow, \textit{Corvus brachyrhynchos}. Genome Announcements, 4(4). \url{https://doi.org/10.1128/genomeA.00807-16}
+\end{footnotesize}
+
 
 \setlength{\leftskip}{0cm}
 **2014**
 
 \setlength{\leftskip}{1cm}
-**Van Laar, T. A.**, Chen, T., Childers, B. M., Chen, P., Abercrombie, J. J., & Leung, K. P. (2014). Genome Sequence of a Multidrug-Resistant Strain of *Klebsiella pneumoniae*, BAMC 07-18, Isolated from a Combat Injury Wound. Genome Announcements, 2(6). https://doi.org/10.1128/genomeA.01230-14
+\begin{footnotesize}
+\textbf{Van Laar, T. A.}, Chen, T., Childers, B. M., Chen, P., Abercrombie, J. J., \& Leung, K. P. (2014). Genome Sequence of a Multidrug-Resistant Strain of \textit{Klebsiella pneumoniae}, BAMC 07-18, Isolated from a Combat Injury Wound. Genome Announcements, 2(6). \url{https://doi.org/10.1128/genomeA.01230-14}
+\end{footnotesize}
+
 
 \setlength{\leftskip}{0cm}
 
 # Book Chapters
 
-Seshu, J., Smith, T. C. 2nd, Lin, Y.-H., Karna, S. L. R., Miller, C. L., & **Van Laar, T. A.** (2018). Analysis of DNA and RNA Binding Properties of *Borrelia burgdorferi* Regulatory Proteins. Methods in Molecular Biology (Clifton, N.J.), 1690, 155–175. https://doi.org/10.1007/978-1-4939-7383-5_13
+\begin{footnotesize}
+Seshu, J., Smith, T. C. 2nd, Lin, Y.-H., Karna, S. L. R., Miller, C. L., \& \textbf{Van Laar, T. A.} (2018). Analysis of DNA and RNA Binding Properties of \textit{Borrelia burgdorferi} Regulatory Proteins. Methods in Molecular Biology (Clifton, N.J.), 1690, 155–175. \url{https://doi.org/10.1007/978-1-4939-7383-5_13}
+\end{footnotesize}
+
+
 
 # Invited Seminars
 
