@@ -12,7 +12,8 @@ linkedin: tvanlaar
 orcid: 0000-0002-4654-8501
 date: "`r format(Sys.time(), '%B %Y')`"
 #aboutme: "Dr. Van Laar is an educator and scientist interested in all things microbial."
-
+header-includes:
+   - \usepackage{multicol}
 headcolor: 414141
 output: 
   vitae::awesomecv:
@@ -355,4 +356,74 @@ Fresno State
 \item Reviewer for NSF 
 \item Reviewer for Microbiology: An Evolving Science 5e Textbook (Norton Publishing)
 \end{itemize}
+\end{footnotesize}
+
+<!--# Courses Taught Section--->
+# Teaching Activities (*Indicates course I developed)
+\begin{footnotesize}
+Stanislaus State
+\begin{multicols}{2}
+\begin{itemize}
+    \item General Microbiology Lecture and Lab (MBIO 3010/3032)
+    \item Introductory Genetics (BIOL 3350)
+    \item Medical Microbiology (BIOL 4300)
+    \item Bioinformatics (BIOL 4810)*
+    \item Genetic Biotechnology (BIOL 4840)
+    \item Biology Colloquium (BIOL 4960)
+    \item Research Design and Data Analysis (BIOL 5500)
+    \item Graduate Seminar (BIOL 5961)
+\end{itemize}
+\end{multicols}
+
+Fresno State
+\begin{multicols}{2}
+\begin{itemize}
+    \item Introductory Biology (BIOL 1A)
+    \item Introductory Microbiology (BIOL 20)
+    \item Genetics (BIOL 102)
+    \item Cell Biology (BIOL 103)
+    \item Honors Experimental Design (BIOL 111H)
+    \item Microbiology (BIOL 120)
+    \item Medical Microbiology (BIOL 121)
+    \item Bioinformatics (BIOL 151)
+    \item Immunology (BIOL 157)
+    \item Field Ornithology (BIOL 189T)*
+    \item Microbial Bioinformatics (BIOL 189T)*
+    \item Scientific Writing (BIOL 250)
+    \item Vector-Borne Diseases (BIOL 260T)*
+    \item Bacterial Pathogenesis (BIOL 260T)*
+    \item Revenge of the Killer Microbes (GE) (NSCI 125)
+    \item Biotechnology and Its Impact on Society (GE) (NSCI 120)
+    \item Blood (GE) (NSCI 121)
+    \item Revenge of the Killer Microbes (GE) (NSCI 125)
+\end{itemize}
+\end{multicols}
+
+St. Philip's College
+\begin{multicols}{2}
+\begin{itemize}
+    \item Microbiology for Allied Health and Nursing (lecture and lab)
+    \item Biology II for Science Majors (lecture and lab)
+\end{itemize}
+\end{multicols}
+
+The University of Texas at San Antonio (teaching associate and guest lecturer)
+\begin{multicols}{3}
+\begin{itemize}
+    \item General Biology I
+    \item Microbiology
+    \item Bacterial Pathogenesis
+\end{itemize}
+\end{multicols}
+
+University of the Pacific (teaching associate)
+\begin{multicols}{4}
+\begin{itemize}
+    \item General Biology I
+    \item General Biology II
+    \item Microbiology
+    \item Genetics
+\end{itemize}
+\end{multicols}
+
 \end{footnotesize}
