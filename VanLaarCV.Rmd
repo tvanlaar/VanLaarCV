@@ -309,41 +309,50 @@ tribble(
 
 <!-- # Outreach and Service Section -->
 # Outreach and Service
-
+\begin{footnotesize}
 Stanislaus State
-
-*	Darwin Day Presenter (2024)
-* CSUBIOTECH Nagel Award Selection Committee (2023-Present)
-*	ASPIRE STEM 4 PALS Presenter (2023-present)
-*	Social Media (Instagram/Twitter) (2022-Present)
+\begin{itemize}
+\item Darwin Day Presenter (2024)
+\item CSUBIOTECH Nagel Award Selection Committee (2023-Present)
+\item ASPIRE STEM 4 PALS Presenter (2023-present)
+\item Social Media (Instagram/Twitter) (2022-Present)
+\end{itemize}
 
 Fresno State
+\begin{itemize}
+\item American Society for Microbiology Abstract and Travel Award Reviewer (2020-present)
+\item Fresno Audubon Society Campus Walks (2019-2022)
+\item American Ornithological Society Poster Judge (2018-present)
+\item College of Science and Mathematics Day of Giving (2018)
+\item Feria de Educacion/Day of Discovery (2018-2022)
+\item Science Olympiad Preparation with University High School (2017 \& 2018)
+\item Central California Research Symposium Judge (2017-2021)
+\item Annual Biomedical Conference for Minority Students Presentation Judge (2016)
+\item Café Scientifique Website, Facebook Page, Twitter Account (2016-2022)
+\item Division of Graduate Studies Symposium Judge (2016)
+\item Head Microbiology Judge for the Central California Regional Science, Math \& Engineering Fair (2016)
+\item Expanding Your Horizons Presenter (2015-2018)
+\end{itemize}
+\end{footnotesize}
 
-*	American Society for Microbiology Abstract and Travel Award Reviewer (2020-present)
-*	Fresno Audubon Society Campus Walks (2019-2022)
-*	American Ornithological Society Poster Judge (2018-present)
-*	College of Science and Mathematics Day of Giving (2018)
-*	Feria de Educacion/Day of Discovery (2018-2022)
-*	Science Olympiad Preparation with University High School (2017 & 2018)
-*	Central California Research Symposium Judge (2017-2021)
-*	Annual Biomedical Conference for Minority Students Presentation Judge (2016)
-*	Café Scientifique Website, Facebook Page, Twitter Account (2016-2022)
-*	Division of Graduate Studies Symposium Judge (2016)
-*	Head Microbiology Judge for the Central California Regional Science, Math & Engineering Fair (2016)
-*	Expanding Your Horizons Presenter (2015-2018)
 
 \newpage
 <!-- # Professional Society Membership Section -->
 # Professional Society Membership
-
-* American Ornithological Society
-* American Society for Microbiology
+\begin{footnotesize}
+\begin{itemize}
+\item American Ornithological Society
+\item American Society for Microbiology
+\end{itemize}
+\end{footnotesize}
 
 <!-- # Professional Service Section -->
 # Professional Service
-
-* Associate editor for mSystems 
-* Reviewer for Genes, Medical Sciences, mSystems, Microbiome, Microorganisms, Molecules, Molecular Biology and Evolution, Data, Biomolecules, Pharmaceuticals
-* Reviewer for NSF 
-* Reviewer for Microbiology: An Evolving Science 5e Textbook (Norton Publishing)
-
+\begin{footnotesize}
+\begin{itemize}
+\item Associate editor for mSystems 
+\item Reviewer for Genes, Medical Sciences, mSystems, Microbiome, Microorganisms, Molecules, Molecular Biology and Evolution, Data, Biomolecules, Pharmaceuticals
+\item Reviewer for NSF 
+\item Reviewer for Microbiology: An Evolving Science 5e Textbook (Norton Publishing)
+\end{itemize}
+\end{footnotesize}
