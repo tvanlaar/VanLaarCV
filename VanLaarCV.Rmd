@@ -223,7 +223,7 @@ tribble(
   "Math is for the Birds", "Seminar Series for the Quanititatively Curious", "Stanislaus State", "2023",
   "Microbiology of Avian Systems", "Seminar Series", "University of the Pacific", "2023",
    "Avian Microbial Genomics", "Seminar Series", "Stanislaus State", "2023",
-  "The Birds of Fresno State", "Fresno Audubon Society", "", "2020",
+  "The Birds of Fresno State", "Monthly Meeting", "Fresno Audubon Society", "2020",
   "We did something bad: Is this the end of the antibiotic era?", "Colloquium", "Fresno State", "2019",
   "Good drugs gone bad: Antimicrobial resistance research at Fresno State", "Seminar Series", "UC Merced", "2018",
   "GMOs and transgenic organisms – threat or opportunity?", "Central Valley Cafe Scientifique", "Fresno, CA", "2018",
