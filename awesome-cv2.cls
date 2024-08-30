@@ -164,27 +164,38 @@
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
 % Set the FontAwesome font to be up-to-date.
+% To re-enable FontAwesome or Roboto, remove the comments and adjust as needed.
+% Ensure each command is properly closed with closing brackets.
+
+% For FontAwesome:
 %\newfontfamily\FA[Path=\@fontdir]{FontAwesome}
-% Set font for header (default is Roboto)
-\newfontfamily\headerfont[
-  Path=\@fontdir,
-  UprightFont=*-Regular,
-  ItalicFont=*-Italic,
-  BoldFont=*-Bold,
-  BoldItalicFont=*-BoldItalic,
-]{Roboto}
 
-\newfontfamily\headerfontlight[
-  Path=\@fontdir,
-  UprightFont=*-Thin,
-  ItalicFont=*-ThinItalic,
-  BoldFont=*-Medium,
-  BoldItalicFont=*-MediumItalic,
-]{Roboto}
+% For Roboto (commented out since we are switching to Arial):
+%\newfontfamily\headerfont[
+%  Path=\@fontdir,
+%  UprightFont=*-Regular,
+%  ItalicFont=*-Italic,
+%  BoldFont=*-Bold,
+%  BoldItalicFont=*-BoldItalic,
+%]{Roboto}
+%
+%\newfontfamily\headerfontlight[
+%  Path=\@fontdir,
+%  UprightFont=*-Thin,
+%  ItalicFont=*-ThinItalic,
+%  BoldFont=*-Medium,
+%  BoldItalicFont=*-MediumItalic,
+%]{Roboto}
 
-\newcommand*{\footerfont}{\sourcesanspro}
-\newcommand*{\bodyfont}{\sourcesanspro}
-\newcommand*{\bodyfontlight}{\sourcesansprolight}
+% Arial font setup
+\newfontfamily\headerfont{Arial}
+\newfontfamily\headerfontlight{Arial} % Arial doesn't have a "light" variant, use the regular for light as well
+
+% Define or redefine footer, body, and body light fonts to Arial
+% If this is the first definition, use \newcommand*
+\newcommand*{\footerfont}{\fontspec{Arial}}
+\newcommand*{\bodyfont}{\fontspec{Arial}}
+\newcommand*{\bodyfontlight}{\fontspec{Arial}}
 
 
 %-------------------------------------------------------------------------------

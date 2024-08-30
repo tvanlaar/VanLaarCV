@@ -18,7 +18,6 @@ headcolor: 414141
 output: 
   vitae::awesomecv:
     page_total: true
-    
 ---
 
 ```{r setup, include=FALSE}
@@ -73,22 +72,13 @@ tribble(
 # Peer-Reviewed Publications (Student Authors Underlined)
 
 \setlength{\leftskip}{0cm}
-\textbf{2024}
-
-\setlength{\leftskip}{1cm}
-\begin{footnotesize}
- \textbf{Van Laar, T. A.}, Greenberg, J. M., Theis, K. R., Whittaker, D. J., \& Slade, J. W. G. (2024). 16S rRNA Gene Sequencing of Microbiota from the Preen Oil and Cloaca of Chipping Sparrows (\textit{Spizella passerina}). Microbiology Resource Announcements. \url{https://doi.org/10.1128/mra.00576-24}
-\end{footnotesize}
-\newpage 
-
-\setlength{\leftskip}{0cm}
 \textbf{2023}
 
 \setlength{\leftskip}{1cm}
 \begin{footnotesize}
 Whittaker, D. J., Atyam, A., Burroughs, N. A., Greenberg, J. M., Hagey, T. J., Novotny, M. V., Soini, H. A., Theis, K. R., \textbf{Van Laar, T. A.}, \& Slade, J. W. G. (2023). Effects of short-term experimental manipulation of captive social environment on uropygial gland microbiome and preen oil volatile composition. Frontiers in Ecology and Evolution, 10. \url{https://www.frontiersin.org/articles/10.3389/fevo.2022.1027399}
 \end{footnotesize}
- 
+\newpage 
 \setlength{\leftskip}{0cm}
 \textbf{2022}
 
@@ -164,7 +154,6 @@ Lin, Y.-H., Romo, J. A., Smith, T. C. 2nd, Reyes, A. N., Karna, S. L. R., Miller
 \begin{footnotesize}
 Childers, B. M., \textbf{Van Laar, T. A.}, You, T., Clegg, S., \& Leung, K. P. (2013). MrkD1P from \textit{Klebsiella pneumoniae} strain IA565 allows for coexistence with \textit{Pseudomonas aeruginosa} and protection from protease-mediated biofilm detachment. Infection and Immunity, 81(11), 4112–4120. \url{https://doi.org/10.1128/IAI.00521-13}
 \end{footnotesize}
-\newpage
 
 \setlength{\leftskip}{0cm}
 
@@ -250,7 +239,7 @@ tribble(
 ) %>% 
   brief_entries(glue::glue("\\textbf{<title>}: <organization>, <location>", .open = "<", .close = ">"), paste0(year), .protect = FALSE)
 ```
-\newpage
+
 # Grants and Funding (Total funding: $819,891)
 
 Stanislaus State
@@ -265,7 +254,7 @@ tribble(
 ) %>%
 brief_entries(glue::glue("\\textbf{{<award>}} \\hfill \\${{<amount>}}", .open = "<", .close = ">"), paste0(year), .protect = FALSE)
 ```
-
+\newpage
 Fresno State
 ```{r}
 tribble(
@@ -354,7 +343,7 @@ Fresno State
 \end{footnotesize}
 
 
-
+\newpage
 <!-- # Professional Society Membership Section -->
 # Professional Society Membership
 \begin{footnotesize}
@@ -444,3 +433,10 @@ University of the Pacific (teaching associate)
 \end{multicols}
 
 \end{footnotesize}
+
+<!-- # Notes Section -->
+# Notes
+
+I am passionate about improving recruitment and retention of a diversity faculty in STEM (and other) fields. I am interesting in eventually taking an administrative role in this area, such as an AVP of Faculty Affairs. Therefore I would be particularly interested in any project with a human resources or science component.
+
+For this assignment, I would like to work with Yuliya, Elizabeth, and Sadie if possible as I know we will work well together. 
